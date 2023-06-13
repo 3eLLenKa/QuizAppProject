@@ -10,11 +10,7 @@ namespace Page_Navigation_App.ViewModel
     class SettingVM : Utilities.ViewModelBase
     {
         private readonly PageModel _pageModel;
-        public bool Settings
-        {
-            get { return _pageModel.LocationStatus; }
-            set { _pageModel.LocationStatus = value; OnPropertyChanged(); }
-        }
+        public bool Settings { get; set; }
 
         public SettingVM()
         {

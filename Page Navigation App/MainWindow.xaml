@@ -15,7 +15,7 @@
         Background="Transparent">
 
     <Window.DataContext>
-        <vm:NavigationVM />
+        <vm:NavigationVM/>
     </Window.DataContext>
 
     <Grid>
