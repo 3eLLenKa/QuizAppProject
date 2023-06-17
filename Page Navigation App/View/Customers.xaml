@@ -20,24 +20,22 @@
                 <ImageBrush ImageSource="/Images/customer_page.png"
                             Stretch="None" />
             </Border.Background>
+            <TextBlock Text="Пройдено викторин :"
+                Foreground="#DBDBDB"
+                FontSize="12"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                FontFamily="/Fonts/#Rubik Medium" Margin="70,196,0,0"
+    />
         </Border>
 
-        <TextBlock Text="Customer ID  :"
+        <TextBlock Text="Ваш ID  :"
                    Foreground="#DBDBDB"
                    FontSize="12"
                    HorizontalAlignment="Left"
                    VerticalAlignment="Top"
                    FontFamily="/Fonts/#Rubik Medium"
                    Margin="70,138,0,0" />
-
-        <TextBlock Text="{Binding CustomerID}"
-                   Foreground="#CED565"
-                   FontSize="12"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   FontFamily="/Fonts/#Rubik Medium"
-                   Margin="160,138,0,0" />
-     
 
     </Grid>
 </UserControl>

@@ -12,10 +12,11 @@
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        Background="Transparent">
+        Background="Transparent"
+        MouseDown="MoveWindow">
 
     <Window.DataContext>
-        <vm:NavigationVM/>
+        <vm:NavigationVM/>  
     </Window.DataContext>
 
     <Grid>

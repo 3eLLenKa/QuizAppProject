@@ -15,19 +15,26 @@ using System.Windows.Shapes;
 
 namespace Page_Navigation_App
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow window;
         public MainWindow()
         {
+            window = this;
             InitializeComponent();
         }
 
         private void CloseApp_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
+        }
+
+        private void MoveWindow(object sender, RoutedEventArgs e)
+        {
+            if (Mouse.LeftButton == MouseButtonState.Pressed)
+            {
+                window.DragMove();
+            }
         }
     }
 }

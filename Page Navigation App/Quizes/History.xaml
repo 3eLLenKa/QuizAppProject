@@ -1,0 +1,21 @@
+﻿<Page x:Class="Page_Navigation_App.Quizes.History"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Page_Navigation_App.Quizes"
+      mc:Ignorable="d" 
+      Height="600"
+      Width="850"
+      Title="History">
+
+    <Grid>
+        <Border Background="#212529" CornerRadius="20" />
+        <Grid HorizontalAlignment="Left" Width="228">
+            <Border Background="#272B2F" CornerRadius="20,0,0,20" />
+            <StackPanel Height="400" Width="228">
+                
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

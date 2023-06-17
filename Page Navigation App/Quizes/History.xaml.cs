@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Page_Navigation_App.View
+namespace Page_Navigation_App.Quizes
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Логика взаимодействия для History.xaml
     /// </summary>
-    public partial class Home : UserControl
+    public partial class History : Page
     {
-        public Home()
+        public History()
         {
             InitializeComponent();
-        }
-
-        private void LoadHistoryQuiz(object sender, RoutedEventArgs e)
-        {
-            //NavigationService.GetNavigationService(this).Navigate(new SecondInfoPages());
         }
     }
 }
